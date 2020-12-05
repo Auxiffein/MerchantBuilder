@@ -1,17 +1,1 @@
-:root {
-	--bg_dark: rgb(224, 226, 227);
-	--bg_light: rgb(233, 235, 237);
-	--text1: rgb(95 99 104);
-}
-
-/* Dark mode CSS */
-body.dark {
-	--bg_dark: rgb(24, 26, 27);
-	--bg_light: rgb(33, 35, 37);
-	--text1: rgb(180 180 180);
-}
-
-body {
-	color: var(--text1);
-	background: var(--bg_dark);
-}
+:root{--bg_dark:rgb(224,226,227);--bg_light:rgb(233,235,237);--text1:rgb(95 99 104)}body.dark{--bg_dark:rgb(24,26,27);--bg_light:rgb(33,35,37);--text1:rgb(180 180 180)}body{color:var(--text1);background:var(--bg_dark)}
